@@ -1,0 +1,1 @@
+type: nodemon server or nodemon server.js (Enter key)
