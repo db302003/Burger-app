@@ -193,10 +193,8 @@ All the recommended files and directories from the steps above should look like 
 │   └── burger.js
 
 ├── node_modules
-│ 
 
 ├── package.json
-│
 
 ├── public
 
@@ -210,15 +208,10 @@ All the recommended files and directories from the steps above should look like 
 
 │           └── burger.png
 
-│   
-│
-├── server.js
+├── server.j
 
 │
 └── views
-
-    ├── index.handlebars
-    
-    └── layouts
-    
+    ├── index.handlebars    
+    └── layouts    
         └── main.handlebars
