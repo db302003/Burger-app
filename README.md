@@ -1,9 +1,13 @@
 # Burger-App
 
 
+
 ## Overview
 
 Here is a burger application using MySQL, Node, Express, Handlebars and a homemade ORM (yum!). 
+
+
+
 
 
 ### Before You Begin
@@ -14,6 +18,9 @@ Whenever a user submits a burger's name, your app will display the burger on the
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
 Your app will store every burger in a database, whether devoured or not.
+
+
+
 
 
 ### Instructions
@@ -32,6 +39,8 @@ Install MySQL npm package: npm install mysql.
 Require the following npm packages inside of the server.js file:
 
 * express
+
+
 
 
 #### DB Setup
@@ -66,6 +75,8 @@ Close out of the MySQL command line tool: exit.
 
 
 
+
+
 #### Config Setup
 
 
@@ -94,7 +105,9 @@ Export the ORM object in module.exports.
 
 
 
-#### Model setup
+
+
+#### Model Setup
 
 
 
@@ -111,7 +124,8 @@ Export at the end of the burger.js file.
 
 
 
-#### Controller setup
+
+#### Controller Setup
 
 
 Inside your burger directory, create a folder named controllers.
@@ -119,16 +133,18 @@ In controllers, create the burgers_controller.js file.
 Inside the burgers_controller.js file, import the following:
 
 
-Express
+##### Express
 
-burger.js
+* burger.js
 
 
 Create the router for the app, and export the router at the end of your file.
 
 
 
-#### View setup
+
+
+#### View Setup
 
 
 Inside your burger directory, create a folder named views.
@@ -149,28 +165,24 @@ Create a button in index.handlebars that will submit the user input into the dat
 
 
 
-#### Directory structure
+#### Directory Structure
+
 
 All the recommended files and directories from the steps above should look like the following structure:
 
 
 
-* .
+
+*
 ├── config
-
 │   ├── connection.js
-
 │   └── orm.js
 │ 
-
 ├── controllers
-
 │   └── burgers_controller.js
 │
-
 ├── db
 │   ├── schema.sql
-
 │   └── seeds.sql
 │
 ├── models
