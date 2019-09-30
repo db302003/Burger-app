@@ -212,6 +212,8 @@ All the recommended files and directories from the steps above should look like 
 
 │
 └── views
-    ├── index.handlebars    
+
+    ├── index.handlebars 
+    
     └── layouts    
         └── main.handlebars
