@@ -173,29 +173,24 @@ All the recommended files and directories from the steps above should look like 
 
 
 
-
 ├── config
 
 │   ├── connection.js
 
 │   └── orm.js
-│ 
 
 ├── controllers
 
 │   └── burgers_controller.js
-│
 
 ├── db
 │   ├── schema.sql
 
 │   └── seeds.sql
-│
 
 ├── models
 
 │   └── burger.js
-│ 
 
 ├── node_modules
 │ 
